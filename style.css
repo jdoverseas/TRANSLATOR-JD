@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --primary-bg: #ffffff;
+    --secondary-bg: #f8fafc;
+    --accent-color: #10b981;
+    --text-primary: #1f2937;
+    --text-secondary: #6b7280;
+    --border-color: #e5e7eb;
+    --message-user: #dcfce7;
+    --message-other: #f3f4f6;
+}
+
+[data-theme="dark"] {
+    --primary-bg: #1f2937;
+    --secondary-bg: #111827;
+    --accent-color: #10b981;
+    --text-primary: #f9fafb;
+    --text-secondary: #d1d5db;
+    --border-color: #374151;
+    --message-user: #065f46;
+    --message-other: #374151;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    transition: all 0.3s ease;
+    background: var(--primary-bg);
+    color: var(--text-primary);
+}
+
+/* Add the rest of your styles here (glass-effect, chat bubbles, voice animations, etc.) */
